@@ -1,0 +1,39 @@
+# Runs the suite twice: the dependency-free core on several Python versions, and the full stack (Chroma,
+# sentence-transformers, LangGraph, FastAPI) so the contract, parity and HTTP tests run instead of skipping.
+# No API key is used: every LLM test uses the scripted fake.
+name: tests
+on: [push, pull_request]
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m unittest discover -s tests -t .
+  full:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -e ".[rag,app,llm]" -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: tests (fails if optional-package tests are still skipped)
+        run: |
+          python -m unittest discover -s tests -t . 2>&1 | tee test.log
+          grep -E "^OK" test.log
+          python - <<'PY'
+          import re, sys
+          tail = open("test.log").read().splitlines()[-1]
+          m = re.search(r"skipped=(\d+)", tail)
+          skipped = int(m.group(1)) if m else 0
+          print("skipped:", skipped)
+          sys.exit(1 if skipped > 2 else 0)   # a couple of skips need the private real manual
+          PY

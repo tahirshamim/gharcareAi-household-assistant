@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+data/
+.env
+.venv/
+*.egg-info/
+.env.*
+!.env.example
+
+# Third-party manuals you test with stay on your machine
+examples/real_docs/
+
+# Evaluation outputs: they quote the (third-party) manual and your LLM answers
+eval_llm_cache.jsonl
+*_results.json
+inspect*.txt
+*.log

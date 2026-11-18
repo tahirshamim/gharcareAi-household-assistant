@@ -1,0 +1,4 @@
+# Optional dependencies for the real RAG stack (Step 2). The core app and the offline demo need none of these.
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0

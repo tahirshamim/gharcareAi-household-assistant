@@ -1,0 +1,251 @@
+[
+  {
+    "question": "How do I clear ice build-up in the freezer?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 3
+      }
+    ],
+    "answerable": true,
+    "must_contain": "Leave the doors open"
+  },
+  {
+    "question": "What does error code E4 mean?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "E4 - Defrost sensor fault"
+  },
+  {
+    "question": "How far should the fridge be from the wall?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 2
+      }
+    ],
+    "answerable": true,
+    "must_contain": "10 cm"
+  },
+  {
+    "question": "What should I do if I smell gas?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 1
+      }
+    ],
+    "answerable": true,
+    "must_contain": "smell gas"
+  },
+  {
+    "question": "How long should I wait before plugging it in after moving it?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 2
+      }
+    ],
+    "answerable": true,
+    "must_contain": "wait 4 hours"
+  },
+  {
+    "question": "What temperature should the fridge compartment be set to?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 3
+      }
+    ],
+    "answerable": true,
+    "must_contain": "dial to 3"
+  },
+  {
+    "question": "fridge mein barf jam rahi hai kya karun",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 3
+      },
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 5
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "water leaking at the bottom of the fridge",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "drain hole"
+  },
+  {
+    "question": "Is it safe to use an extension cord?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 1
+      }
+    ],
+    "answerable": true,
+    "must_contain": "extension cord"
+  },
+  {
+    "question": "warranty claim ke liye kya chahiye",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 5
+      }
+    ],
+    "answerable": true,
+    "must_contain": "warranty card sath"
+  },
+  {
+    "question": "What is the freezer capacity in litres?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I replace the water filter?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I connect the refrigerator to the wifi app?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I get rid of frost in the freezer?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 3
+      }
+    ],
+    "answerable": true,
+    "must_contain": "Leave the doors open"
+  },
+  {
+    "question": "Why is there water pooling under my fridge?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "drain hole"
+  },
+  {
+    "question": "What is the minimum clearance behind the refrigerator?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 2
+      }
+    ],
+    "answerable": true,
+    "must_contain": "10 cm"
+  },
+  {
+    "question": "Can I plug the fridge into a power strip?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 1
+      }
+    ],
+    "answerable": true,
+    "must_contain": "extension cord"
+  },
+  {
+    "question": "What should I do when the display shows E7?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "E7 - Door open"
+  },
+  {
+    "question": "Shift karne ke baad fridge kitni der baad on karun?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 2
+      }
+    ],
+    "answerable": true,
+    "must_contain": "wait 4 hours"
+  },
+  {
+    "question": "fridge thanda nahi kar raha",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      },
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 5
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "The fridge makes a loud rattling sound, is that normal?",
+    "relevant": [
+      {
+        "document": "xr200_sample_manual_SYNTHETIC.txt",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "rattling"
+  },
+  {
+    "question": "What is the power consumption in watts?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How many shelves does the fridge have?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I reverse the door opening?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the warranty period for the compressor?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "Does this model have an ice maker or water dispenser?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What voltage does it need?",
+    "relevant": [],
+    "answerable": false
+  }
+]

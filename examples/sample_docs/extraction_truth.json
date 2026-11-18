@@ -1,0 +1,42 @@
+{
+  "receipt_SYNTHETIC.txt": {
+    "doc_type": "receipt",
+    "fields": {
+      "store_name": "Al-Noor Electronics, Lahore",
+      "purchase_date": "2024-03-14",
+      "total_amount": "95000.00",
+      "product_name": "Haier Refrigerator",
+      "brand": "Haier",
+      "model_number": "HRF-306",
+      "serial_number": "HF2403145521"
+    },
+    "not_high": []
+  },
+  "warranty_card_SYNTHETIC.txt": {
+    "doc_type": "warranty_card",
+    "fields": {
+      "product_name": "Refrigerator",
+      "brand": "Haier",
+      "model_number": "HRF-306",
+      "serial_number": "HF2403145521",
+      "warranty_start_date": "2024-03-14",
+      "warranty_duration_months": "24",
+      "provider": "Haier Pakistan Service Centre"
+    },
+    "not_high": []
+  },
+  "service_invoice_SYNTHETIC.txt": {
+    "doc_type": "service_invoice",
+    "fields": {
+      "service_date": "2025-12-05",
+      "total_amount": "4500.00",
+      "problem_description": "AC not cooling, gas low",
+      "work_done": "Gas top up and filter cleaning",
+      "technician": "Imran Ali",
+      "parts_replaced": "Capacitor"
+    },
+    "not_high": [
+      "service_date"
+    ]
+  }
+}

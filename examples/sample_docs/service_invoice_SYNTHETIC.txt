@@ -1,0 +1,7 @@
+GREE SERVICE CENTRE - JOB CARD / INVOICE (SYNTHETIC SAMPLE)
+Service Date: 05/12/2025
+Technician: Imran Ali
+Problem: AC not cooling, gas low
+Work Done: Gas top up and filter cleaning
+Parts Replaced: Capacitor
+Total Amount: Rs. 4,500

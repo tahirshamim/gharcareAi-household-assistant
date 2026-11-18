@@ -1,0 +1,16 @@
+AL-NOOR ELECTRONICS (SYNTHETIC SAMPLE RECEIPT)
+Shop: Al-Noor Electronics, Lahore
+Invoice No: 20413
+Date: 14/03/2024
+Customer: Ayesha Khan
+
+Item: Haier Refrigerator
+Model No: HRF-306
+Serial No: HF2403145521
+Qty: 1
+Sub Total: Rs. 97,000
+Discount: Rs. 2,000
+GST: included
+Grand Total: Rs. 95,000
+Payment: Cash
+Thank you for shopping with us.

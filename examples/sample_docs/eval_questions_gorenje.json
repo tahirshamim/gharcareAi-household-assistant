@@ -1,0 +1,432 @@
+[
+  {
+    "question": "How long should the fridge stand upright before I plug it in?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 4
+      }
+    ],
+    "answerable": true,
+    "must_contain": "minimum of 2 hours"
+  },
+  {
+    "question": "Can I use a power strip behind the fridge?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 5
+      }
+    ],
+    "answerable": true,
+    "must_contain": "portable power supplies"
+  },
+  {
+    "question": "What should I do if the power cord is damaged?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 5
+      }
+    ],
+    "answerable": true,
+    "must_contain": "replaced by the manufacturer"
+  },
+  {
+    "question": "What should I do if the LED light stops working?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 5
+      },
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true,
+    "must_contain": "service technician"
+  },
+  {
+    "question": "What should I do if the cooling system has a gas leak?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 7
+      }
+    ],
+    "answerable": true,
+    "must_contain": "ventilate the room"
+  },
+  {
+    "question": "What refrigerant gas does this appliance contain?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 7
+      }
+    ],
+    "answerable": true,
+    "must_contain": "r600a"
+  },
+  {
+    "question": "Can I store spray cans in the fridge?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 8
+      }
+    ],
+    "answerable": true,
+    "must_contain": "aerosol cans"
+  },
+  {
+    "question": "How long can I leave the freezer closed during a power cut?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 8
+      }
+    ],
+    "answerable": true,
+    "must_contain": "over 16 hours"
+  },
+  {
+    "question": "What is the ambient temperature range for a tropical climate class?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 12
+      }
+    ],
+    "answerable": true,
+    "must_contain": "+16 to +43"
+  },
+  {
+    "question": "How much space is needed above the appliance?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 12
+      }
+    ],
+    "answerable": true,
+    "must_contain": "at least 5 cm"
+  },
+  {
+    "question": "How much room space is needed for the amount of refrigerant?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 12
+      }
+    ],
+    "answerable": true,
+    "must_contain": "8 grams of refrigerant"
+  },
+  {
+    "question": "Can this appliance be built into kitchen cabinets?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 12
+      }
+    ],
+    "answerable": true,
+    "must_contain": "build-in"
+  },
+  {
+    "question": "How much can the mains voltage vary?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 13
+      }
+    ],
+    "answerable": true,
+    "must_contain": "+/- 6%"
+  },
+  {
+    "question": "How do I change the direction the door opens?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 14
+      }
+    ],
+    "answerable": true,
+    "must_contain": "opposite side"
+  },
+  {
+    "question": "How do I switch the fridge on?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 17
+      }
+    ],
+    "answerable": true,
+    "must_contain": "clockwise"
+  },
+  {
+    "question": "Does turning the knob to off disconnect the power?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 17
+      }
+    ],
+    "answerable": true,
+    "must_contain": "remain powered"
+  },
+  {
+    "question": "Which dial setting should I use if the room is colder than 16 degrees?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 18
+      }
+    ],
+    "answerable": true,
+    "must_contain": "thickest part"
+  },
+  {
+    "question": "How much weight can the bottle holder take?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 19
+      }
+    ],
+    "answerable": true,
+    "must_contain": "13 kilograms"
+  },
+  {
+    "question": "When should I switch the fan on?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 21
+      }
+    ],
+    "answerable": true,
+    "must_contain": "over 30"
+  },
+  {
+    "question": "How long can eggs be kept in the fridge?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 25
+      }
+    ],
+    "answerable": true,
+    "must_contain": "up to 10 days"
+  },
+  {
+    "question": "Which foods should not be stored in the FreshZone drawer?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 26
+      }
+    ],
+    "answerable": true,
+    "must_contain": "bananas"
+  },
+  {
+    "question": "When should I activate the super freeze function?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 27
+      }
+    ],
+    "answerable": true,
+    "must_contain": "24 hours before"
+  },
+  {
+    "question": "At what temperature should shop-bought frozen food be stored?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 28
+      }
+    ],
+    "answerable": true,
+    "must_contain": "-18"
+  },
+  {
+    "question": "How long can pork be kept in the freezer?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 29
+      }
+    ],
+    "answerable": true,
+    "must_contain": "4 to 6 months"
+  },
+  {
+    "question": "How thick should the frost be before I defrost the freezer?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 30
+      },
+      {
+        "document": "590939.pdf",
+        "page": 10
+      },
+      {
+        "document": "590939.pdf",
+        "page": 31
+      }
+    ],
+    "answerable": true,
+    "must_contain": "3-5"
+  },
+  {
+    "question": "Can I use a knife to remove the ice?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 30
+      },
+      {
+        "document": "590939.pdf",
+        "page": 31
+      }
+    ],
+    "answerable": true,
+    "must_contain": "sharp object"
+  },
+  {
+    "question": "What can I use to clean the water drain opening?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 31
+      },
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true,
+    "must_contain": "plastic straw"
+  },
+  {
+    "question": "Why is there so much ice on the back wall of the fridge?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true,
+    "must_contain": "door opened too frequently"
+  },
+  {
+    "question": "Why is water leaking from the refrigerator?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true,
+    "must_contain": "water discharge opening"
+  },
+  {
+    "question": "What information should I give the service centre?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true,
+    "must_contain": "serial number"
+  },
+  {
+    "question": "Why is my fridge making unusual noise?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 33
+      }
+    ],
+    "answerable": true,
+    "must_contain": "level and stable"
+  },
+  {
+    "question": "fridge mein bahut zyada barf jam gayi hai, kya karun?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 30
+      },
+      {
+        "document": "590939.pdf",
+        "page": 32
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "fridge pehli bar chalane se pehle kitni der khara rakhna chahiye?",
+    "relevant": [
+      {
+        "document": "590939.pdf",
+        "page": 4
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the total capacity of this fridge in litres?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the warranty period?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the phone number of the service centre?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "Does this model have a water dispenser or an ice maker?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How much does the appliance weigh?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the noise level in decibels?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the retail price of this model?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "How do I connect the fridge to WiFi?",
+    "relevant": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the yearly energy consumption in kWh?",
+    "relevant": [],
+    "answerable": false
+  }
+]

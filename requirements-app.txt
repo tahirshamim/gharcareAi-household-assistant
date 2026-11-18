@@ -1,0 +1,5 @@
+# Web app (Step 6). Install with:  pip install -r requirements-app.txt
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9     # needed for file uploads
+httpx>=0.27                 # only used by the HTTP tests (fastapi TestClient)
